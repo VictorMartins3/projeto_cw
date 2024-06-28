@@ -4,7 +4,7 @@ use quake_log_parser::display::{display_total_kills, display_players, display_ki
 use std::io;
 
 fn main() {
-    let log_file_path = "C:/Users/Victor Martins/Desktop/ProjetoCW/quake_log_parser/qgames.log";  // Atualize este caminho para o seu arquivo de log
+    let log_file_path = "src/log/qgames.log";  
     match read_log_file(log_file_path) {
         Ok(lines) => {
             let games = parse_log(lines);

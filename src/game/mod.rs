@@ -36,7 +36,6 @@ impl Game {
 
     pub fn add_kill(&mut self, killer: &str, victim: &str, means_of_death: &str) {
         self.total_kills += 1;
-
         if MEANS_OF_DEATH_LIST.contains(&means_of_death) {
             *self.means_of_death.entry(means_of_death.to_string()).or_insert(0) += 1;
         }
@@ -45,7 +44,7 @@ impl Game {
             if let Some(kills) = self.kills.get_mut(killer) {
                 *kills += 1;
             }
-        } else if killer == "<world>" {
+        } else if killer == "<world>" || killer == victim {
             if let Some(kills) = self.kills.get_mut(victim) {
                 *kills -= 1;
             }
