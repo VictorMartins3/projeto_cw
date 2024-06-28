@@ -13,7 +13,7 @@ pub fn parse_log(lines: Vec<String>) -> Vec<Game> {
     let mut current_game = Game::new();
     let mut count_init = 0;
 
-    for (index, line) in lines.iter().enumerate() {
+    for (_index, line) in lines.iter().enumerate() {
         if line.contains("InitGame") {
             if count_init != 0 {
                 games.push(current_game);

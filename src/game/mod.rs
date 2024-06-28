@@ -45,7 +45,7 @@ impl Game {
             if let Some(kills) = self.kills.get_mut(killer) {
                 *kills += 1;
             }
-        } else if killer == "<world>" {
+        } else if killer == "<world>" || killer == victim {
             if let Some(kills) = self.kills.get_mut(victim) {
                 *kills -= 1;
             }
