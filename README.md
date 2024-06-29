@@ -14,6 +14,8 @@ Quake Log Parser is a Rust application designed to parse log files from Quake II
 
 ## Installation
 
+## Linux
+
 To use this project, you need to have Rust installed on your machine. If you do not have Rust installed, you can install it using the following command:
 
 ```bash
@@ -41,6 +43,27 @@ source $HOME/.cargo/env
 4. **Select an option** from the menu to generate the desired report.
 
       ![](src/utils/gifs/toptermica.gif)
+
+## Windows
+
+1. **Install Rust**:
+   Download and install Rust from [rustup.rs](https://rustup.rs/).
+
+2. **Clone the repository**:
+   Open Command Prompt or PowerShell and run:
+   ```bash
+   git clone https://github.com/VictorMartins3/projeto_cw.git
+   cd projeto_cw
+   ```
+
+3. **Ensure the log file `qgames.log` is in the project directory**:
+   Ensure that `qgames.log` is placed in the `log` directory within your project.
+
+4. **Run the application**:
+   Run the following command in the project directory:
+   ```bash
+   cargo run
+   ```
 
 ## Project Structure
 
