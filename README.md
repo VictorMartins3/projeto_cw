@@ -40,8 +40,8 @@ source $HOME/.cargo/env
 
 4. **Select an option** from the menu to generate the desired report.
 
-   ## Demonstração
-      ![](projeto_cw/src/utils/gifs/toptermica.gif)
+   # Demonstração
+      ![](src/utils/gifs/toptermica.gif)
 ## Project Structure
 
 The project is organized as follows:
