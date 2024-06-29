@@ -41,7 +41,7 @@ source $HOME/.cargo/env
 4. **Select an option** from the menu to generate the desired report.
 
       ![](src/utils/gifs/toptermica.gif)
-      
+
 ## Project Structure
 
 The project is organized as follows:
@@ -108,7 +108,7 @@ Sample log file from Quake III Arena (ensure this file is in the project directo
 
 ## Contact
 
-Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
+For any questions or inquiries, you can reach me on Slack or via email at martins.victor212004@gmail.com.
 
 ## Author
 
