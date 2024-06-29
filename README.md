@@ -9,8 +9,8 @@ Quake Log Parser is a Rust application designed to parse log files from Quake II
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
+- [Contact](#Contact)
+- [Author](#Author)
 
 ## Installation
 
@@ -40,6 +40,8 @@ source $HOME/.cargo/env
 
 4. **Select an option** from the menu to generate the desired report.
 
+   ## Demonstração
+      ![](projeto_cw/src/utils/gifs/toptermica.gif)
 ## Project Structure
 
 The project is organized as follows:
@@ -104,14 +106,10 @@ Sample log file from Quake III Arena (ensure this file is in the project directo
 - **Games with Kills**: Displays games that have kills.
 - **Games without Kills**: Displays games that do not have kills.
 
-## Contributing
+## Contact
 
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-Author
+## Author
 
 [<img loading="lazy" src="https://avatars.githubusercontent.com/u/106573420?v=4" width=115><br><sub>Victor Martins</sub>](https://github.com/VictorMartins3) 
